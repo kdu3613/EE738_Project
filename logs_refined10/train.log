@@ -1,0 +1,23 @@
+Namespace(max_length=10, train_list='data/ks_train.json', val_list='data/ks_val.json', labels_path='data/label.json', train_path='data/kspon_train', val_path='data/kspon_eval', max_epoch=20, batch_size=32, lr=0.0001, seed=2222, initial_model='', save_path='/mnt/server8_hard1/donguk/EE738/logs_refined10', eval=False, gpu=3)
+Namespace(max_length=10, train_list='data/ks_train.json', val_list='data/ks_val.json', labels_path='data/label.json', train_path='data/kspon_train', val_path='data/kspon_eval', max_epoch=20, batch_size=16, lr=0.0001, seed=2222, initial_model='', save_path='/mnt/server8_hard1/donguk/EE738/logs_refined10', eval=False, gpu=3)
+Epoch 000, train loss 3.651, val loss 3.334
+Epoch 001, train loss 2.429, val loss 2.956
+Epoch 002, train loss 2.196, val loss 2.596
+Epoch 003, train loss 2.051, val loss 2.365
+Epoch 004, train loss 1.903, val loss 2.902
+Epoch 005, train loss 1.818, val loss 2.033
+Namespace(max_length=10, train_list='data/ks_train.json', val_list='data/ks_val.json', labels_path='data/label.json', train_path='data/kspon_train', val_path='data/kspon_eval', max_epoch=10, batch_size=32, lr=0.0001, seed=2222, initial_model='/mnt/server8_hard1/donguk/EE738/logs_refined4/model00019.pt', save_path='/mnt/server8_hard1/donguk/EE738/logs_refined10', eval=False, gpu=4)
+Epoch 006, train loss 1.681, val loss 1.997
+Epoch 007, train loss 1.629, val loss 2.417
+Epoch 008, train loss 1.576, val loss 1.984
+Epoch 009, train loss 1.550, val loss 1.907
+Epoch 010, train loss 1.482, val loss 1.810
+Epoch 011, train loss 1.425, val loss 1.768
+Epoch 012, train loss 1.388, val loss 1.786
+Epoch 013, train loss 1.338, val loss 1.751
+Epoch 014, train loss 1.299, val loss 1.707
+Epoch 015, train loss 1.273, val loss 1.643
+Epoch 016, train loss 1.261, val loss 1.732
+Epoch 017, train loss 1.229, val loss 1.653
+Epoch 018, train loss 1.216, val loss 1.602
+Epoch 019, train loss 1.201, val loss 1.564
